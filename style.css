@@ -1,0 +1,302 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html{
+  font-size: 62.5%;
+}
+
+body{
+  font-size: 2rem;
+  color: #343a40;
+  font-family: 'Inter', sans-serif;
+  /* font-family: 'Open Sans', sans-serif;
+  font-family: 'Rubik', sans-serif; */
+}
+
+/* ************** */
+/* Header Section */
+/* ************** */
+
+
+.topheader{
+display: flex;
+justify-content: space-between;
+align-items: center;
+background-color: #fdf2e9;
+
+/* because we want to make it sticky */
+height: 9.6rem; 
+padding: 0 4.8rem;
+}
+
+.logo{
+height: 7rem;
+
+}
+
+/****************/
+/* Top Navigation */
+/****************/
+
+/* .navigation{
+
+} */
+
+.unordered-list
+{
+list-style: none;
+display: flex;
+gap: 3rem;
+align-items: center;
+font-size: 1.8rem;
+font-weight: 600;
+}
+
+.list:link, .list:visited{
+  text-decoration: none;
+  color: black;
+
+}
+.list:hover, .list:active{
+  color: #f08c00;
+}
+
+ .unordered-list .list-5{
+  background-color: #f08c00 ;
+  padding: 1.2rem 2.5rem;
+  border-radius: 1.5rem;
+  color: white;
+}
+
+
+
+
+/****************/
+/* Hero Section */
+/****************/
+
+.main-hero-container
+{
+  background-color:#fdf2e9;
+  padding: 9.6rem 0 4.8rem 0;
+  
+  /* height: calc(100vh-9.6rem); */
+}
+.hero-container{
+ max-width: 130rem;
+ margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center; 
+  padding: 0 2.2rem;
+  margin-bottom: 16rem;
+  
+  
+  gap: 9.6rem;
+  /* background-color: #b6b0a3; */
+ 
+  
+}
+.mainheader{
+  font-size: 5.4rem;
+  font-weight: 700;
+ line-height: 1.1;
+ letter-spacing: -0.5px;
+ margin-bottom: 3rem;
+}
+.description{
+font-size: 2.5rem;
+line-height: 1.6px;
+margin-bottom: 5rem;
+font-weight: 500;
+
+}
+
+
+
+.hero-image
+{
+  max-width: 100%;
+}
+.btn
+{
+  font-size: 2rem;
+  font-weight: 500;
+}
+.btn:link,.btn:visited
+{
+  display: inline-block;
+ 
+ padding: 1.5rem 2.5rem;
+ border-radius: 1.5rem;
+ text-decoration: none;
+ color: inherit;
+ 
+}
+
+.btn1:link, .btn:visited
+{
+background-color: #f08c00;
+color: white;
+}
+.btn:hover,.btn:active
+{
+ background-color: #e67700;
+ transition: all 2s;
+}
+
+.btn2:link, .btn2:visited
+{
+background-color: aliceblue;
+color: black;
+border: 1px solid #e67700;
+}
+
+/* ************ */
+/* LOGO SECTION */
+/* ************ */
+.logo-section{
+padding: 3.2rem 0;
+}
+
+
+.logo-header{
+font-size: 1.5rem;
+text-align: center;
+margin-bottom: 2.4rem;
+text-transform:uppercase ;
+color: #888;
+
+}
+.logo-img-box
+{
+ display: flex;
+ justify-content: space-around;
+}
+.logo-img{
+  height: 2.8rem;
+  filter: brightness(0);
+  opacity: 50%;
+
+
+}
+
+/* ***************** */
+/* Section-How class */
+/* ***************** */
+.section-how
+{
+  padding: 9.6rem 0;
+  /* background-color:#fdf2e9 ; */
+  
+}
+
+.subheading
+{
+ font-size: 1.8rem;
+ letter-spacing: 1.5px;
+ font-weight: 600;
+ color: #e67700;
+ display: block;
+ margin-bottom: 1.5rem;
+ text-transform: uppercase;
+}
+.heading-secondary
+{
+ font-size: 4rem;
+ letter-spacing: -0.5px;
+ margin-bottom: 9.6rem ;
+ 
+ 
+}
+.step-text-box
+{
+
+}
+.step-number
+{
+font-size: 5rem;
+font-weight: 600;
+color: #868e96;
+margin-bottom: 1.5rem;
+}
+.heading-tertiary
+{
+ margin-bottom: 1rem;
+ letter-spacing: -0.5px;
+ font-weight: 600;
+}
+.step-description
+{
+  font-size: 2rem;
+ line-height: 1.6;
+}
+.step-img-box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.step-img
+{
+ width: 40%;
+}
+
+
+
+
+
+/* ************* */
+/* Resuable class */
+/* ************* */
+
+
+.container
+{
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+  
+}
+.grid
+{
+  display: grid;
+  row-gap: 9.6rem;
+  column-gap: 2rem ;
+}
+.grid--2--cols 
+{
+  grid-template-columns: repeat(2,1fr);
+}
+.grid--3--cols
+{
+  grid-template-columns: repeat(3,1fr);
+}
+.grid--4--cols
+{
+  grid-template-columns: repeat(4,1fr);
+}
+
+.grid--align-center
+{
+ align-items: center;
+}
+
+.heading-primary
+{
+font-size: 5.2rem;
+font-weight: 700;
+line-height: 1.05;
+color: #333;
+letter-spacing: -0.5px;
+margin-bottom: 3.2rem;
+}
+.heading-secondary
+{
+  
+}
+
