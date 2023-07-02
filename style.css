@@ -22,6 +22,8 @@ body{
 
 
 .topheader{
+  position: sticky;
+  top: 0;
 display: flex;
 justify-content: space-between;
 align-items: center;
@@ -159,7 +161,7 @@ border: 1px solid #e67700;
 /* ************ */
 /* LOGO SECTION */
 /* ************ */
-.logo-section{
+#logo-section{
 padding: 3.2rem 0;
 }
 
@@ -326,7 +328,10 @@ margin-bottom: 1.5rem;
 {
   grid-template-columns: repeat(4,1fr);
 }
-
+.grid--5--cols
+{
+  grid-template-columns: repeat(5,1fr);
+}
 .grid--align-center
 {
  align-items: center;
@@ -345,4 +350,51 @@ margin-bottom: 3.2rem;
 {
   
 }
+/* ************** */
+/* Footer section */
+/* ************** */
 
+.footer-section
+{
+  border-top: 1px solid rgb(228, 216, 216);
+  padding: 4.8rem 0 4.8rem 0;
+
+}
+
+.subfooter p
+{
+  font-size: 1.3rem;
+  font-weight: 700px;
+  
+}
+.subfooter h4
+{
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  font-weight: 600;
+}
+.subfooter
+{
+  display: flex;
+  flex-direction: column;
+  
+/* align-items: center; */
+/* justify-content: space-around; */
+gap: 2rem;
+  
+  
+}
+.logo-name
+{
+  color: #f08c00;
+}
+.footer-logo
+{
+  width: 70%;
+}
+.icon
+{
+  display: flex;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
