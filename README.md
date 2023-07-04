@@ -2,4 +2,4 @@
 
 ### Screenshot
 
-![Bhuiyan-Kichen](https://iili.io/HigSxst.th.png)
+![Bhuiyan-Kichen](https://iili.io/HigSxst.png)
