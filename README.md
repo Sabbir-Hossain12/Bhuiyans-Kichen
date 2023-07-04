@@ -2,4 +2,4 @@
 
 ### Screenshot
 
-![alt text]([![HigSxst.th.png](https://iili.io/HigSxst.th.png)](https://freeimage.host/i/HigSxst))
+![alt text]([![HigSxst.md.png](https://iili.io/HigSxst.md.png)](https://freeimage.host/i/HigSxst))
