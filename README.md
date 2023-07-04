@@ -5,7 +5,7 @@
 
 ![Bhuiyan-Kichen](https://iili.io/HigSxst.png)
 
-### IT is highly Inspired From Bhuiyan Kitchen Project.
+### IT is highly Inspired From Omnifood Project.
 
 ## About Bhuiyan Kitchen
 
